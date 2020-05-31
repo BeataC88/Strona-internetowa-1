@@ -1,0 +1,304 @@
+body
+{
+	background-image: url("img/blue-snow.png");
+	font-family: 'Montserrat', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+header
+{
+	width: 100%;
+	background-color: black;
+	color: #DEA41F;
+}
+
+h1.logo
+{
+	font-size: 25px;
+	font-weight: 400;
+	padding: 30px;
+}
+
+nav
+{
+	text-align: right;
+}
+
+.menu
+{
+	list-style-type: none;
+	font-size: 18px;
+	padding: 5px;
+	/*border: 1px solid red;*/
+	color: #DEA41F;
+	margin-bottom: 0;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding: 10px;
+	border-left: 2px dashed #DEA41F;
+}
+
+.menu > li:last-child
+{	
+	border-right: 2px dashed #DEA41F;
+}
+
+/*.menu > li:hover
+{
+	background-color: gray;	
+}
+*/
+.menu a:hover
+{
+	color: white;
+}
+
+.menu a
+{
+	text-decoration: none;
+	color:#DEA41F;
+}
+
+#slajder
+{
+	width: 610px;
+	height: 412px;
+	padding-left: 190px;
+	padding-right: 190px;
+	margin: 5px 5px 0 5px;
+	background-color: #46DCDF;
+	/*background-color: black;*/
+	color: white;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+
+#slajder img
+{
+	transition: all 0.5s ease-in-out;
+}
+
+#slajder:hover img
+{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+
+#content
+{
+	width: 988px;
+	color: white;
+	background-color: #787C7F;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+h2
+{
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	color:#DEA41F;
+	margin-left: 50px;
+	padding-top: 30px;	
+}
+
+#rectangle1
+{
+	width: 200px;
+	/*height: 800px;*/
+	/*padding: 8px;*/
+	/*border: 1px solid red;*/
+	margin-left: 40px;
+	float: left;
+}
+
+.foto1
+{
+	width: 184px;
+	height: 123px;	
+	padding: 5px;
+	transition: transform 0.2s ease-in-out;	
+	/*border: 1px solid red;*/
+}
+
+.foto1:hover
+{
+	transform: scale(1.2);
+}
+
+.foto2
+{
+	width: 184px;
+	height: 123px;	
+	padding: 5px;	
+	transition: transform 0.5s ease-in-out;	
+	/*border: 1px solid red;*/
+}
+
+.foto2:hover
+{
+	transform: scale(1.2) rotate(360deg);
+}
+
+.foto3
+{
+	width: 184px;
+	height: 123px;	
+	padding: 5px;	
+	/*border: 1px solid red;*/
+}
+
+.foto3:hover
+{
+	transform: scale(1.2) rotate(360deg);
+}
+
+
+.tekst
+{
+	/*width: 676px;*/
+	/*border: 1px solid green;*/
+	font-size: 15px;
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+
+.download
+{
+	width: 876px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	color: white;
+	height: 50px;
+	border: 2px solid white;
+	padding: 20px;
+}
+
+.download_t
+{
+	font-size: 20px;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.download_i
+{
+	width: 40px;
+	text-align: center;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.download_i a
+{
+	color: white;
+	text-decoration: none;
+}
+
+footer
+{
+	width: 1000px;
+	background-color: black;
+	padding-bottom: 30px;
+}
+
+.info
+{
+	color: white;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.socials
+{
+	width: 100%;
+	height: 200px;
+}
+
+.yt
+{
+	width: 250px;
+	height: 100%;
+	background-color: #FF0000;
+	text-align: center;
+	float: left;
+}
+
+.yt:hover
+{
+	background-color: #EE0000;
+}
+
+.fb
+{
+	width: 250px;
+	height: 100%;
+	background-color: #4267B2;
+	text-align: center;
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #3156A1;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 100%;
+	background-color: #DD4B39;
+	text-align: center;
+	float: left;
+}
+
+.gplus:hover
+{
+	background-color: #CC3A28;
+}
+
+.tw
+{
+	width: 250px;
+	height: 100%;
+	background-color: #1DA1F2;
+	text-align: center;
+	float: left;
+}
+
+.tw:hover
+{
+	background-color: #0CA0E1;
+}
+
+.socials a
+{
+	color: white;
+	display: block;
+}
+
+/*.sociallink
+{
+	display: block;
+	color: white;
+}*/
