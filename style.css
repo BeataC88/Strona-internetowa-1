@@ -12,7 +12,6 @@ body {
 
 header {
 	width: 100%;
-	/* background-color: white; */
 	color: #DEA41F;
 
 }
@@ -32,7 +31,6 @@ nav {
 	list-style-type: none;
 	font-size: 18px;
 	padding: 5px;
-	/*border: 1px solid red;*/
 	color: #DEA41F;
 	margin-bottom: 5px;
 
@@ -48,11 +46,6 @@ nav {
 	border-right: 2px dashed #DEA41F;
 }
 
-/*.menu > li:hover
-{
-	background-color: gray;	
-}
-*/
 
 .menu a {
 	text-decoration: none;
@@ -67,7 +60,6 @@ nav {
 	width: 100%;
 	min-height: 620px;
 	position: relative;
-	/* background-color: #46DCDF; */
 	color: white;
 }
 
@@ -98,55 +90,37 @@ h2 {
 	padding-top: 30px;
 }
 
-#rectangle1 {
+#photos {
 	width: 200px;
-	/*height: 800px;*/
-	/*padding: 8px;*/
-	/*border: 1px solid red;*/
 	margin-left: 40px;
 	float: left;
 }
 
-.foto1 {
+.photo1 {
 	width: 184px;
 	height: 123px;
 	padding: 5px;
 	transition: transform 0.2s ease-in-out;
-	/*border: 1px solid red;*/
 }
 
-.foto1:hover {
-	transform: scale(1.2);
-}
 
-.foto2 {
+.photo2 {
 	width: 184px;
 	height: 123px;
 	padding: 5px;
 	transition: transform 0.8s ease-in-out;
-	/*border: 1px solid red;*/
 }
 
-.foto2:hover {
-	transform: scale(1.5) rotate(360deg);
-}
 
-.foto3 {
+.photo3 {
 	width: 184px;
 	height: 123px;
 	padding: 5px;
 	transition: transform 0.8s ease-in-out;
-	/*border: 1px solid red;*/
-}
-
-.foto3:hover {
-	transform: scale(1.5);
 }
 
 
-.tekst {
-	/*width: 676px;*/
-	/*border: 1px solid green;*/
+.text {
 	font-size: 15px;
 	text-align: justify;
 	margin: 0 40px 20px;
@@ -164,14 +138,12 @@ h2 {
 
 .download_t {
 	font-size: 20px;
-	/*display: inline-block;*/
 	float: left;
 }
 
 .download_i {
 	width: 40px;
 	text-align: center;
-	/*display: inline-block;*/
 	float: left;
 }
 
