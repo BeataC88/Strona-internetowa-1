@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-	width: 1000px;
+	width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: black;
@@ -12,8 +12,9 @@ body {
 
 header {
 	width: 100%;
-	background-color: black;
+	/* background-color: white; */
 	color: #DEA41F;
+
 }
 
 h1.logo {
@@ -24,6 +25,7 @@ h1.logo {
 
 nav {
 	text-align: right;
+	margin-right: 80px;
 }
 
 .menu {
@@ -32,7 +34,8 @@ nav {
 	padding: 5px;
 	/*border: 1px solid red;*/
 	color: #DEA41F;
-	margin-bottom: 0;
+	margin-bottom: 5px;
+
 }
 
 .menu>li {
@@ -50,45 +53,40 @@ nav {
 	background-color: gray;	
 }
 */
-.menu a:hover {
-	color: white;
-}
 
 .menu a {
 	text-decoration: none;
 	color: #DEA41F;
 }
 
-#slajder {
-	width: 610px;
-	height: 412px;
-	padding-left: 190px;
-	padding-right: 190px;
-	margin: 5px 5px 0 5px;
-	background-color: #46DCDF;
-	/*background-color: black;*/
+.menu a:hover {
 	color: white;
-	overflow: hidden;
-	/*border: 1px solid red;*/
+}
+
+#slajder {
+	width: 100%;
+	min-height: 620px;
+	position: relative;
+	/* background-color: #46DCDF; */
+	color: white;
 }
 
 #slajder img {
-	transition: all 0.5s ease-in-out;
-}
-
-#slajder:hover img {
-	-webkit-transform: scale(1.15);
-	-ms-transform: scale(1.15);
-	transform: scale(1.15);
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 930px;
+	height: 620px;
+	overflow: hidden;
+	opacity: 0.5;
 }
 
 
 #content {
-	width: 988px;
+	width: 100%;
 	color: white;
 	background-color: #787C7F;
-	border: 1px solid black;
-	margin: 5px;
 }
 
 h2 {
@@ -125,23 +123,24 @@ h2 {
 	width: 184px;
 	height: 123px;
 	padding: 5px;
-	transition: transform 0.5s ease-in-out;
+	transition: transform 0.8s ease-in-out;
 	/*border: 1px solid red;*/
 }
 
 .foto2:hover {
-	transform: scale(1.2) rotate(360deg);
+	transform: scale(1.5) rotate(360deg);
 }
 
 .foto3 {
 	width: 184px;
 	height: 123px;
 	padding: 5px;
+	transition: transform 0.8s ease-in-out;
 	/*border: 1px solid red;*/
 }
 
 .foto3:hover {
-	transform: scale(1.2) rotate(360deg);
+	transform: scale(1.5);
 }
 
 
@@ -150,19 +149,13 @@ h2 {
 	/*border: 1px solid green;*/
 	font-size: 15px;
 	text-align: justify;
-	margin-right: 20px;
-	margin-left: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin: 0 40px 20px;
 }
 
 
 .download {
-	width: 876px;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	width: 956px;
+	margin: 30px 50px;
 	color: white;
 	height: 50px;
 	border: 2px solid white;
@@ -188,7 +181,7 @@ h2 {
 }
 
 footer {
-	width: 1000px;
+	width: 100%;
 	background-color: black;
 	padding-bottom: 30px;
 }
@@ -206,7 +199,7 @@ footer {
 }
 
 .yt {
-	width: 250px;
+	width: 275px;
 	height: 100%;
 	background-color: #FF0000;
 	text-align: center;
@@ -218,7 +211,7 @@ footer {
 }
 
 .fb {
-	width: 250px;
+	width: 275px;
 	height: 100%;
 	background-color: #4267B2;
 	text-align: center;
@@ -230,7 +223,7 @@ footer {
 }
 
 .gplus {
-	width: 250px;
+	width: 275px;
 	height: 100%;
 	background-color: #DD4B39;
 	text-align: center;
@@ -242,7 +235,7 @@ footer {
 }
 
 .tw {
-	width: 250px;
+	width: 275px;
 	height: 100%;
 	background-color: #1DA1F2;
 	text-align: center;
